@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #000000;
+    --neon-green: #39ff14;
+    --neon-magenta: #ff00ff;
+    --neon-cyan: #00ffff;
+    --card-dark: #050505;
+    --card-surface: #0a0a0a;
+  }
+
+  body {
+    background-color: #000000;
+    color: #e2e8f0;
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.font-gothic {
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Bento Grid Pattern & Glowing Boxes */
+.bento-pattern-magenta {
+  background-image: radial-gradient(#ff00ff 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bento-pattern-green {
+  background-image: radial-gradient(#39ff14 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bento-pattern-cyan {
+  background-image: radial-gradient(#00ffff 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bento-box-green {
+  border: 1px solid #39ff14;
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.25);
+}
+
+.bento-box-magenta {
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.25);
+}
+
+.bento-box-cyan {
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.25);
+}
+
+.bento-box-white {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 26, 0) 50%, 
+    rgba(0, 0, 0, 0.4) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 255, 0.04),
+    rgba(57, 255, 20, 0.02),
+    rgba(0, 255, 255, 0.04)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+

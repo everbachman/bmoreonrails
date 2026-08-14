@@ -1,0 +1,11 @@
+export const TECH_BUZZWORDS = [
+  { category: "Core Frameworks", words: ["Ruby on Rails", "Ruby 3.4", "Hotwire", "Turbo Drive", "Turbo Frames", "Turbo Streams", "Stimulus.js", "Sinatra", "Hanami", "Rack", "ActiveRecord", "ActionCable", "Solid Queue", "Solid Cache", "Solid Cable", "Kamal 2", "Propshaft"] },
+  { category: "Backend & Data", words: ["PostgreSQL", "Redis", "Sidekiq", "GraphQL", "RESTful APIs", "WebSockets", "Elasticsearch", "ClickHouse", "SQLite in Production", "Message Brokers", "Kafka", "RabbitMQ", "ActiveJob", "Database Sharding", "Query Optimization"] },
+  { category: "Infrastructure & DevOps", words: ["Docker", "Kubernetes", "AWS", "Google Cloud Platform", "Terraform", "CI/CD Pipelines", "GitHub Actions", "Kamal Deployments", "Linux SysAdmin", "Bare Metal Servers", "Nginx", "Puma", "Falcon", "Zero-Downtime Deploys"] },
+  { category: "AI & Modern Stack", words: ["LLM Integration", "AI Agents", "Retrieval-Augmented Generation (RAG)", "Vector Databases", "Embeddings", "LangChain Ruby", "Ollama", "llama.cpp", "Prompt Engineering", "Autonomous Workflows", "WebAssembly (WASM)", "TypeScript", "Tailwind CSS"] },
+  { category: "Regional & Community", words: ["Baltimore Tech", "Charm City Software Engineers", "Maryland Rubyists", "Mid-Atlantic Developers", "Technical Meetups Baltimore", "DMV Tech Community", "Fells Point Coders", "Hampden Hackers", "Federal Hill Tech", "Open Source Baltimore"] }
+];
+
+export const MANIFESTO_TEXT = `Bmore on Rails is Baltimore's longest-standing, most unapologetic engineering collective for hackers, architects, and curious minds who build software that actually ships. Founded in the heart of Charm City, we convene every month to dissect codebases, debate architecture, evaluate cutting-edge tooling, and push the boundaries of modern web engineering.
+
+Whether you are scaling massive multi-tenant Rails monoliths handling millions of requests per minute, orchestrating distributed worker queues, integrating local AI agent swarms, or writing clean vanilla Ruby scripts to automate your life—this is your home. No corporate sales pitches. No superficial networking rituals. Just pure craft, unfiltered war stories, deep technical curiosity, and an electric community of cool nerds doing amazing things.`;

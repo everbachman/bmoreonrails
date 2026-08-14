@@ -1,0 +1,41 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Local Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# Dependencies & Package Managers (if using local servers/tools)
+node_modules/
+bower_components/
+.npm/
+.yarn/
+
+# Build & Output Directories (if using bundlers or preprocessors)
+dist/
+build/
+out/
+.sass-cache/
+
+# Optional: Formatter/Linter configs you might want to keep local
+.eslintcache
+*.zip

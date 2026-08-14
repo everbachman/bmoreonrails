@@ -1,0 +1,6 @@
+{
+  "name": "Bmore on Rails",
+  "description": "Baltimore's premier technical meetup for cool nerds who do amazing things. Monthly meetup for people who build software, mostly in Ruby, sometimes with Rails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
