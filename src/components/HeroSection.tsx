@@ -1,6 +1,5 @@
 import React from 'react';
 import { Terminal, Calendar, ArrowDownRight, Radio, Skull, Flame, Zap, ShieldAlert, Cpu } from 'lucide-react';
-import heroHackerImg from '../assets/images/goth_cyber_hacker_1786666154122.jpg';
 import { LUMA_CALENDAR_URL } from '../data/events';
 
 interface HeroSectionProps {
@@ -101,7 +100,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToEvents }) =>
             {/* Hacker Graphic */}
             <div className="relative overflow-hidden aspect-video sm:aspect-[4/3] lg:aspect-[16/12] bg-black border-2 border-[#FF00FF]">
               <img
-                src={heroHackerImg}
+                src="https://www.placekittens.com/g/640/480"
                 alt="Baltimore Rubyist Hacker in Cyberpunk Terminal Session"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center filter contrast-125 saturate-110 brightness-95"
